@@ -1,7 +1,65 @@
+
+/* Bloque estilo de Caratula.html */
+
 #headerPpal{
     background-color: black;
     color: white;
-    padding: 0%;
-    margin:0%;
-    border: 0ch;
+    padding: 0;
+    margin:0;
+    border: 0;
+}
+
+/* Bloque estilo de Principal.html */
+
+#tituloCurriculum{
+    padding: 100px;
+    text-align: center;
+    font-size: xx-large;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+    font-weight: bold;
+
+}
+
+ #contenedorImagen{
+    float: left;
+    border: 20px;
+    padding-right: 0px;
+    margin-left: 20px;
+    margin-right: 100px;
+} 
+
+#fotoCarnet{
+    height: auto;
+    width: auto;
+    max-height: 350px;
+    max-width: 350px;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+#contenedorDatosPersonales{
+    float: left;
+    font-size:xx-large;
+    font-weight: bolder;
+    font-family: ui-sans-serif;
+
+}
+
+#contenedorInformacion{
+    clear: both;
+    float: left;
+    
+}
+
+footer{
+    clear: both;
+    float: left;
+    background-color: black;
+    
+}
+
+#pieDePagina{
+    color: white;
+    text-decoration:solid;
 }
