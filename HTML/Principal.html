@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <script src="../Comportamiento/Comportamiento.js"></script>
     <!-- Inicia el curriculum -->
     <div id="bloqueCentral">
         <!-- Inicia bloque de datos personales -->
@@ -31,30 +32,29 @@
                     <li>Telefono de Contacto: (011) 15 2354-6798</li>
                 </ul>
             </div>
-
         </div>
         <!-- Hasta aca el bloque correspondiente a datos personales -->
         <!-- Inicia el bloque correspondiente a datos profesionales -->
         <div id="contenedorInformacion"> <!--Contenedor de datos academicos y profesionales-->
-            <div><!--Breve Descripción-->
-                <div>Breve Descripción:</div>
-                <div>
+            <div id="bloqueDeDatos"><!--Breve Descripción-->
+                <div id="tituloPrincipal">Breve Descripción:</div>
+                <div id="recuadros">
                     <details>
                         <summary>Mostrar Más</summary>
-                        <h2>Aca una breve descripción de mi vida y bla bla bla</h2>
+                        <h2 id="contenido">Aca una breve descripción de mi vida y bla bla bla</h2>
                     </details>
                 </div>
             </div>
             <div><!--Conocimientos y experiencias profesionales-->
-                <div>Historial Academico</div>
-                <div>
-                    <div>Estudios Formales</div>
+                <div id="tituloPrincipal">Historial Academico</div>
+                <div id="recuadros">
+                    <div id="tituloSecundario">Estudios Formales</div>
                     <div>
-                        <div>Secundario: Completo</div>
+                        <div id="contenido">Secundario: Completo</div>
                         <div>
                             <details>
                                 <summary>Mostrar Más</summary>
-                                <ul>
+                                <ul id="contenido">
                                     <li>Escuela de Educacion Secundaria Técnica Nro. 1 de Esteban Echeverría</li>
                                     <li>Inicio: 15 de Marzo del 1995</li>
                                     <li>Fin: 2 de Diciembre del 2001</li>
@@ -63,11 +63,11 @@
                                 </ul>
                             </details>
                         </div>
-                        <div>Terciario: Tecnicatura en Programación de Computadoras</div>
+                        <div id="tituloSecundario">Terciario: Tecnicatura en Programación de Computadoras</div>
                         <div>
                             <details>
                                 <summary>Mostrar Más</summary>
-                                <ul>
+                                <ul id="contenido">
                                     <li>Universidad Nacional de Lomas de Zamora</li>
                                     <li>Inicio: 3 de abril del 2002</li>
                                     <li>Fin: 5 de Agosto del 2006</li>
@@ -75,11 +75,11 @@
                                 </ul>
                             </details>
                         </div>
-                        <div>Cursos:</div>
+                        <div id="tituloSecundario">Cursos:</div>
                         <div>
                             <details>
                                 <Summary>Mostrar Más</Summary>
-                                <ul>
+                                <ul id="contenido">
                                     <li>HTML</li>
                                     <li>JavaScript</li>
                                     <li>CSS</li>
@@ -90,9 +90,9 @@
                                 </ul>
                             </details>
                         </div>
-                        <div>Idiomas:</div>
+                        <div id="tituloSecundario">Idiomas:</div>
                         <div>
-                            <ul>
+                            <ul id="tituloSecundario">
                                 <li>Ingles: Medio (Nivel B1 - MCERL)</li>
                                 <li>Portugués: Básico</li>
                             </ul>
@@ -101,25 +101,27 @@
                 </div>
             </div>
             <div><!--Experiencias Profesionales-->
-                <div>Experiencia Profesional</div>
-                <div>
-                    <div>Empresa: Neobit - QA en Proyectos</div>
+                <div id="tituloPrincipal">Experiencia Profesional</div>
+                <div id="recuadros">
+                    <div id="tituloSecundario">Empresa: Naranja X (Tarjeta Naranja) - QA en Proyectos</div>
                     <div>
                         <details>
                             <summary>Mostrar Más</summary>
                             <ul>
                                 <li>Fecha de inicio-fin: Agosto del año 2013 - Septiembre 2016 </li>
                                 <li>Tareas: QA en HTML, JavaScript (Front-End)</li>
+                                <li id="referenciaNaranja">Más informacion ingresar aquí</li>
                             </ul>
                         </details>
                     </div>
-                    <div>Empresa: Netbrown - DEV en Proyectos</div>
+                    <div id="tituloSecundario">Empresa: Infobae - DEV en Proyectos</div>
                     <div>
                         <details>
                             <summary>Mostrar Más</summary>
                             <ul>
                                 <li>Fecha de inicio-fin: Agosto del año 2013 - Septiembre 2016 </li>
                                 <li>Tareas: Dev JavaScript, Kotlin (Back-End</li>
+                                <li id="referenciaInfobae">Más informacion ingresar aquí</li>
                             </ul>
                         </details>
                     </div>
@@ -129,7 +131,8 @@
     </div>
     <!-- Finaliza bloque correspondiente a datos profesionales -->
     <footer> <!-- Inicia pie de pagina con advertencia -->
-        <h3 id="pieDePagina"> Los datos y la fotografía proporcionados por esta página son ficticios, generados de forma aleatoria por
+        <h3 id="pieDePagina"> Los datos y la fotografía proporcionados por esta página son ficticios, generados de forma
+            aleatoria por
             los
             sitios https://thispersondoesnotexist.com y
             https://www.fakenamegenerator.com, como así tambien otros datos ficticios imaginados, y se hace mención de
@@ -141,5 +144,4 @@
         </h3>
     </footer>
 </body>
-
 </html>

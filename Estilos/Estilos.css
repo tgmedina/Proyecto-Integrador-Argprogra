@@ -1,17 +1,65 @@
-
 /* Bloque estilo de Caratula.html */
 
-#headerPpal{
+#bodyCaratula{
+    display: block;
     background-color: black;
-    color: white;
-    padding: 0;
-    margin:0;
-    border: 0;
 }
+
+#contenedorPrincipalCaratula{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: 300px;
+}
+
+#tituloCaratula{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+#postulante{
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    text-decoration-style: solid;
+    font-weight: bold;
+
+}
+
+#botonIngreso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    
+
+}
+
+button{
+    font-weight: bolder;
+    border-radius: 10%;
+    font-size: larger;
+    padding: 30px;
+}
+
+button:hover{
+    text-decoration-line: underline;
+}
+
+
+
+
 
 /* Bloque estilo de Principal.html */
 
-#tituloCurriculum{
+#tituloCurriculum {
     padding: 100px;
     text-align: center;
     font-size: xx-large;
@@ -21,45 +69,95 @@
 
 }
 
- #contenedorImagen{
+#contenedorImagen {
     float: left;
     border: 20px;
     padding-right: 0px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 100px;
-} 
-
-#fotoCarnet{
-    height: auto;
-    width: auto;
-    max-height: 350px;
-    max-width: 350px;
-    min-width: 200px;
-    min-height: 200px;
 }
 
-#contenedorDatosPersonales{
+#fotoCarnet {
+    height: 100%;
+    width: 100%;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 400px;
+    max-height: 400px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#contenedorDatosPersonales {
     float: left;
-    font-size:xx-large;
+    font-size: x-large;
     font-weight: bolder;
     font-family: ui-sans-serif;
 
 }
 
-#contenedorInformacion{
+#contenedorInformacion {
     clear: both;
     float: left;
-    
+    width: 100%;
+
 }
 
-footer{
+#tituloPrincipal {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+    font-weight: bold;
+
+}
+
+
+#tituloSecundario {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+    text-decoration-style: solid;
+    font-weight: bold;
+}
+
+#contenido {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+    align-items: center;
+    font-size: large;
+    text-decoration-style: solid;
+    font-weight: bold;
+}
+
+footer {
     clear: both;
     float: left;
     background-color: black;
-    
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 
-#pieDePagina{
+#pieDePagina {
     color: white;
-    text-decoration:solid;
+    text-decoration: solid;
+
+}
+
+summary {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+    text-decoration-style: solid;
+    font-weight: bold;
+}
+
+#recuadros {
+    border-style: solid;
+    border-color: black;
 }
