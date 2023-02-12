@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <script src="../Comportamiento/Comportamiento.js"></script>
+    
     <!-- Inicia el curriculum -->
     <div id="bloqueCentral">
         <!-- Inicia bloque de datos personales -->
@@ -40,7 +40,7 @@
                 <div id="tituloPrincipal">Breve Descripción:</div>
                 <div id="recuadros">
                     <details>
-                        <summary>Mostrar Más</summary>
+                        <summary id="breve" class="mostrarMas">Mostrar Más</summary>
                         <h2 id="contenido">Aca una breve descripción de mi vida y bla bla bla</h2>
                     </details>
                 </div>
@@ -53,7 +53,7 @@
                         <div id="contenido">Secundario: Completo</div>
                         <div>
                             <details>
-                                <summary>Mostrar Más</summary>
+                                <summary id="secundaria" class="mostrarMas">Mostrar Más</summary>
                                 <ul id="contenido">
                                     <li>Escuela de Educacion Secundaria Técnica Nro. 1 de Esteban Echeverría</li>
                                     <li>Inicio: 15 de Marzo del 1995</li>
@@ -66,7 +66,7 @@
                         <div id="tituloSecundario">Terciario: Tecnicatura en Programación de Computadoras</div>
                         <div>
                             <details>
-                                <summary>Mostrar Más</summary>
+                                <summary id="terciario" class="mostrarMas">Mostrar Más</summary>
                                 <ul id="contenido">
                                     <li>Universidad Nacional de Lomas de Zamora</li>
                                     <li>Inicio: 3 de abril del 2002</li>
@@ -78,7 +78,7 @@
                         <div id="tituloSecundario">Cursos:</div>
                         <div>
                             <details>
-                                <Summary>Mostrar Más</Summary>
+                                <Summary id="cursos" class="mostrarMas">Mostrar Más</Summary>
                                 <ul id="contenido">
                                     <li>HTML</li>
                                     <li>JavaScript</li>
@@ -106,22 +106,22 @@
                     <div id="tituloSecundario">Empresa: Naranja X (Tarjeta Naranja) - QA en Proyectos</div>
                     <div>
                         <details>
-                            <summary>Mostrar Más</summary>
+                            <summary id="experienciaNaranja" class="mostrarMas">Mostrar Más</summary>
                             <ul>
                                 <li>Fecha de inicio-fin: Agosto del año 2013 - Septiembre 2016 </li>
                                 <li>Tareas: QA en HTML, JavaScript (Front-End)</li>
-                                <li id="referenciaNaranja">Más informacion ingresar aquí</li>
+                                <li id="referenciaNaranja">Más informacion ingresar <a id="paginaNaranja" class="mostrarMas" href="https://www.naranjax.com"> aquí </a></li>
                             </ul>
                         </details>
                     </div>
                     <div id="tituloSecundario">Empresa: Infobae - DEV en Proyectos</div>
                     <div>
                         <details>
-                            <summary>Mostrar Más</summary>
+                            <summary id="experienciaInfobae" class="mostrarMas">Mostrar Más</summary>
                             <ul>
                                 <li>Fecha de inicio-fin: Agosto del año 2013 - Septiembre 2016 </li>
-                                <li>Tareas: Dev JavaScript, Kotlin (Back-End</li>
-                                <li id="referenciaInfobae">Más informacion ingresar aquí</li>
+                                <li>Tareas: Dev JavaScript, Kotlin (Back-End)</li>
+                                <li id="referenciaInfobae">Más informacion ingresar <a id="paginaInfobae" class="mostrarMas" href="https://www.infobae.com"> aquí </a></li>
                             </ul>
                         </details>
                     </div>
@@ -143,5 +143,6 @@
             El autor no se hará responsable de los posibles daños del mal uso de la información aqui proporcionada.
         </h3>
     </footer>
+    <script src="../Comportamiento/Comportamiento.js"></script>
 </body>
 </html>
